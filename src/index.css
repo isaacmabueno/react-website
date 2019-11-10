@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.hero {
+    height: 75vh;
+    background-image: url('/imgs/rubens-hero.jpg');
+    width: 100vw;
+    background-image: url(/imgs/rubens-hero.jpg);
+    background-position: center;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
