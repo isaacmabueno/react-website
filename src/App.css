@@ -20,3 +20,30 @@
 .App-link {
   color: #09d3ac;
 }
+.navbar a img {
+  width: 150px;
+}
+.navbar {
+  top: 0px;
+  position: absolute;
+  background: transparent !important;
+  /* float: left; */
+  width: 100%;
+}
+.hero {
+  height: 80vh;
+}
+
+a.nav-item {
+  color: #fff !important;
+  text-transform: uppercase;
+}
+.navbar {
+  padding: 30px 5%;
+}
+.navbar a {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Text', cursive;
+  letter-spacing: 2px;
+}

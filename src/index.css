@@ -13,10 +13,9 @@ code {
 }
 
 .hero {
-    height: 75vh;
-    background-image: url('/imgs/rubens-hero.jpg');
+    height: auto;
+    background-image: url('/imgs/rubens-hero-bw.jpg');
     width: 100vw;
-    background-image: url(/imgs/rubens-hero.jpg);
     background-position: center;
     width: 100vw;
     background-repeat: no-repeat;
