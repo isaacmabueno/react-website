@@ -21,3 +21,10 @@ code {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}

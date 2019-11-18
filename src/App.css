@@ -1,3 +1,6 @@
+body {
+  font-family: 'Big Shoulders Text', cursive;
+}
 .App {
   text-align: center;
 }
@@ -7,7 +10,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,11 +30,10 @@
   top: 0px;
   position: absolute;
   background: transparent !important;
-  /* float: left; */
   width: 100%;
 }
 .hero {
-  height: 80vh;
+  height: 95vh;
 }
 
 a.nav-item {
@@ -46,4 +48,39 @@ a.nav-item {
   text-transform: uppercase;
   font-family: 'Big Shoulders Text', cursive;
   letter-spacing: 2px;
+}
+.services-section {
+  color: #000;
+  padding: 50px 0;
+}
+.navbar li {
+  cursor: pointer;
+}
+.services-section {
+  text-transform: uppercase;
+}
+.left li,
+.right li {
+  list-style-type: none;
+}
+.left .item,
+.right .item {
+  float: left;
+  text-align: left;
+}
+.left span, 
+.right span {
+  padding-left: 100px;
+  float: right;
+}
+.left span:first-child,
+.left span:first-child {
+  padding-left: 0;
+}
+.yelp-reviews {
+  color: #000;
+}
+.yelp-reviews li {
+  list-style-type: none;
+  text-align: left;
 }

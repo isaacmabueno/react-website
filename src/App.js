@@ -4,6 +4,8 @@ import './App.css';
 // import Yelp from './Components/Yelp';
 import Header from './Components/Header'
 import Nav from './Components/Nav'
+import Services from './Components/Services'
+import Yelp from './Components/Yelp';
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
       <header className="App-header">
         <Nav />
         <Header />
-        <img src={logo} className="App-logo" alt="logo" />
+        <Services />
+        <Yelp />
       </header>
     </div>
   );
