@@ -35,9 +35,7 @@ export default class Yelp extends React.Component {
                                 <h5 className="card-title">{review.title}</h5>
                                 <p className="card-text">{review.title}</p>
                                 <p className="card-text"><small class="text-muted">{review.id}</small></p>
-                                
                             </div>
-                           
                         </div>
                     )}
                 </ul>
